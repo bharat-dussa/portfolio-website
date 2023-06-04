@@ -30,7 +30,8 @@ export function ProjectsSection() {
 			repoUrl: "",
 			stack: ["React", "nodejs", "Material UI", "Styled Components", "mongoDb", "AWS"],
 			title: "Docktimer | Freelancing",
-			status: STATUS.IN_PROGRESS
+			status: STATUS.IN_PROGRESS,
+			members: 4
 		},
 		{
 			description: "Bhiwandi's biggest organization for telugu community runs over 5 schools",
@@ -38,7 +39,8 @@ export function ProjectsSection() {
 			liveUrl: "https://www.tss-sanstha.com/",
 			repoUrl: "",
 			stack: ["React", "tailwind css"],
-			title: "Telugu Samaj Shikshan Sanstha"
+			title: "Telugu Samaj Shikshan Sanstha",
+			members: 1
 		},
 		{
 			description: "",
@@ -46,7 +48,8 @@ export function ProjectsSection() {
 			liveUrl: "https://gnine-creators.netlify.app/ramya-gopal-wedding",
 			repoUrl: "",
 			stack: ["React"],
-			title: "Couple wedding photos gallery"
+			title: "Couple wedding photos gallery",
+			members: 1
 		},
 		{
 			description: "",
@@ -54,7 +57,8 @@ export function ProjectsSection() {
 			liveUrl: "https://vituarvom.com/",
 			repoUrl: "",
 			stack: ["React", ],
-			title: "Freelancing Site | Vituarvom"
+			title: "Freelancing Site | Vituarvom",
+			members: 1
 		},
 		{
 			description: "",
@@ -62,7 +66,8 @@ export function ProjectsSection() {
 			liveUrl: "https://nested-todo-app.vercel.app/",
 			repoUrl: "",
 			stack: ["React", "antd", "tailwind css"],
-			title: "Nested Todo App"
+			title: "Nested Todo App",
+			members: 1
 		},
 		{
 			description: "",
@@ -70,7 +75,8 @@ export function ProjectsSection() {
 			liveUrl: "https://web3-chat-app-sable.vercel.app/",
 			repoUrl: "",
 			stack: ["React", "antd design", "Web3", "Metamask wallet"],
-			title: "Web3 Chat Application"
+			title: "Web3 Chat Application",
+			members: 1
 		},
 		{
 			description: "",
@@ -78,7 +84,8 @@ export function ProjectsSection() {
 			liveUrl: "https://hacker-news-deuex.netlify.app/",
 			repoUrl: "",
 			stack: ["React", "css"],
-			title: "News Website using hacker news api"
+			title: "News Website using hacker news api",
+			members: 1
 		},
 		{
 			description: "",
@@ -86,7 +93,8 @@ export function ProjectsSection() {
 			liveUrl: "https://real-estate-landing-page-lime.vercel.app/",
 			repoUrl: "",
 			stack: ["React", "css"],
-			title: "Real estate landing page"
+			title: "Real estate landing page",
+			members: 1
 		},
 		{
 			description: "",
@@ -94,7 +102,8 @@ export function ProjectsSection() {
 			liveUrl: "https://nostalgic-haibt-7b1fbe.netlify.app/",
 			repoUrl: "",
 			stack: ["html", "css"],
-			title: "Copperants website"
+			title: "Copperants website",
+			members: 1
 		},
 		{
 			description: "",
@@ -102,7 +111,8 @@ export function ProjectsSection() {
 			liveUrl: "https://scoolonline.netlify.app/",
 			repoUrl: "",
 			stack: ["html", "css", "vue js"],
-			title: "Scool online static website"
+			title: "Scool online static website",
+			members: 1
 		}
 	];
 

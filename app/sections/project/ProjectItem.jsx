@@ -9,7 +9,7 @@ import { FiExternalLink } from "react-icons/fi";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 export function ProjectItem({ project, index }) {
-	const { description, images, liveUrl, repoUrl, stack, title } = project;
+	const { description, images, liveUrl, repoUrl, stack, title, members } = project;
 	const cardRef = useRef(null);
 	const isInView = useInView(cardRef, { once: true });
 
@@ -57,6 +57,9 @@ export function ProjectItem({ project, index }) {
 					</h3>
 					<p tabIndex="0" className="leading-7 font-light">
 						{description}
+					</p>
+					<p tabIndex="0" className="flex leading-7 font-light">
+						members : {members}
 					</p>
 				</header>
 
