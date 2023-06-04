@@ -18,7 +18,8 @@ export function WelcomeSection() {
 	const [text] = useState([
 		"convert design into modern UI",
 		"build interactive UI using React",
-		"develop websites using Next.js"
+		"develop websites using Next.js",
+		"develop web app using node & express"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
