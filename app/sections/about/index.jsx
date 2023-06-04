@@ -34,8 +34,7 @@ export function AboutSection() {
 						</p>
 						
 						<p className="my-3.5">
-							I enjoy learning technologies that interest me, which is why I dedicated a significant
-							amount of time to working with WordPress.
+							I enjoy learning technologies that interest me
 						</p>
 						<p>
 							I started learning React. I was so excited to see how fast I can build a website with it, and how easy it is to maintain
