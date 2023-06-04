@@ -42,6 +42,11 @@ export function ProjectItem({ project, index }) {
 							additionalClass="gallery-item"
 						/>
 					</Suspense>
+					{project.status ? (
+						<span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded text-red-600 bg-red-200 last:mr-0 mr-1">
+							{project.status}
+						</span>
+					) : null}
 				</div>
 			</figure>
 

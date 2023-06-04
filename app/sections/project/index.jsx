@@ -7,7 +7,7 @@ import { fetcher } from "utils/fetcher";
 import Error from "../../error";
 import { ErrorBoundary } from "react-error-boundary";
 import { Projects } from "../../projects/components/Projects";
-import { SITE_ROUTES } from "../../../constants";
+import { SITE_ROUTES, STATUS } from "../../../constants";
 
 const url = `${process.env.NEXT_PUBLIC_SANITY_URL}${process.env.NEXT_PUBLIC_SANITY_LATEST_PROJECTS}`;
 
@@ -24,15 +24,16 @@ export function ProjectsSection() {
 
 	const projects = [
 		{
-			description: "",
+			description: "Employee Timesheet Management App",
 			images: ["https://lh3.googleusercontent.com/drive-viewer/AFGJ81qqER3XnXnene-47ly6qVRl-qQHPM9gPYglin_aq7LbgjHBwS1pQlM1j5IRM9wvnVs7Kp1f3-JLX3TIHvYfErqIW9CcUA=s1600"],
 			liveUrl: "https://www.docktimer.com/",
 			repoUrl: "",
 			stack: ["React", "nodejs", "Material UI", "Styled Components", "mongoDb", "AWS"],
-			title: "Docktimer | Freelancing"
+			title: "Docktimer | Freelancing",
+			status: STATUS.IN_PROGRESS
 		},
 		{
-			description: "",
+			description: "Bhiwandi's biggest organization for telugu community runs over 5 schools",
 			images: ["https://lh3.googleusercontent.com/drive-viewer/AFGJ81oebejuJtjHiMx3MF_Y0HWZKRraSCHP7JcZxt7pyn55T4B8WGlVZ_RHojXMc39-n0nDYcfRWRkClH9Otq2A0LCrmpvluw=s1600"],
 			liveUrl: "https://www.tss-sanstha.com/",
 			repoUrl: "",
@@ -52,7 +53,7 @@ export function ProjectsSection() {
 			images: ["https://lh3.googleusercontent.com/drive-viewer/AFGJ81rTNq0TDmKmILrBzj6Qc-GfhJaUu2I2Oo9Ml3e8tCH_zrkCqBEb6uqYUcNdpYh2QmdSkorrXUaL45yxfP514HhJ3Xe1dQ=s1600"],
 			liveUrl: "https://vituarvom.com/",
 			repoUrl: "",
-			stack: ["React"],
+			stack: ["React", ],
 			title: "Freelancing Site | Vituarvom"
 		},
 		{
@@ -60,7 +61,7 @@ export function ProjectsSection() {
 			images: ["https://lh3.googleusercontent.com/drive-viewer/AFGJ81pl0nz81Oukfm1xLTpgFjUEV1JffxHLQv_K-CIlyGi3rH6ZaXWfUqUfXyI03kMTwnzewIg7tY4lMxOoDI1v6JhmowCa=s1600"],
 			liveUrl: "https://nested-todo-app.vercel.app/",
 			repoUrl: "",
-			stack: ["React"],
+			stack: ["React", "antd", "tailwind css"],
 			title: "Nested Todo App"
 		},
 		{
@@ -76,7 +77,7 @@ export function ProjectsSection() {
 			images: ["https://lh3.googleusercontent.com/drive-viewer/AFGJ81pjsE_ALbfzZ7_hMeYgQPXeplCm1HKF-2RrHctRF249Wi1Y2rxA18f5KjbQGy1ITLFGVbZlQLVFn6XG97oHYAtBL_6LlA=s1600"],
 			liveUrl: "https://hacker-news-deuex.netlify.app/",
 			repoUrl: "",
-			stack: ["React"],
+			stack: ["React", "css"],
 			title: "News Website using hacker news api"
 		},
 		{
@@ -84,7 +85,7 @@ export function ProjectsSection() {
 			images: ["https://lh3.googleusercontent.com/drive-viewer/AFGJ81rfqjrEJOVxVB7PPOLxkxV_4uJxFDiqfH4hFs39Ca5xbY383nND2v0T9Jf5UpaxEDZ_XChpHo6KEF1Da1uQP6RUBrOJ2w=s1600"],
 			liveUrl: "https://real-estate-landing-page-lime.vercel.app/",
 			repoUrl: "",
-			stack: ["React"],
+			stack: ["React", "css"],
 			title: "Real estate landing page"
 		},
 		{
