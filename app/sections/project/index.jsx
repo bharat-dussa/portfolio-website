@@ -33,14 +33,6 @@ export function ProjectsSection() {
 		},
 		{
 			description: "",
-			images: ["https://lh3.googleusercontent.com/drive-viewer/AFGJ81pbBjDBwZDp350NclsM-gg8oTOWyLYk2UI9_gNjH_olP2ZmaYNxSrPTqJG2VOTV1vXCm1eMSjUbkm6CrdgOyxSNRPXtHA=s1600"],
-			liveUrl: "https://web3-chat-app-sable.vercel.app/",
-			repoUrl: "",
-			stack: ["React", "antd design", "Web3", "Metamask wallet"],
-			title: "Web3 Chat Application"
-		},
-		{
-			description: "",
 			images: ["https://lh3.googleusercontent.com/drive-viewer/AFGJ81oebejuJtjHiMx3MF_Y0HWZKRraSCHP7JcZxt7pyn55T4B8WGlVZ_RHojXMc39-n0nDYcfRWRkClH9Otq2A0LCrmpvluw=s1600"],
 			liveUrl: "https://www.tss-sanstha.com/",
 			repoUrl: "",
@@ -70,6 +62,14 @@ export function ProjectsSection() {
 			repoUrl: "",
 			stack: ["React"],
 			title: "Nested Todo App"
+		},
+		{
+			description: "",
+			images: ["https://lh3.googleusercontent.com/drive-viewer/AFGJ81pbBjDBwZDp350NclsM-gg8oTOWyLYk2UI9_gNjH_olP2ZmaYNxSrPTqJG2VOTV1vXCm1eMSjUbkm6CrdgOyxSNRPXtHA=s1600"],
+			liveUrl: "https://web3-chat-app-sable.vercel.app/",
+			repoUrl: "",
+			stack: ["React", "antd design", "Web3", "Metamask wallet"],
+			title: "Web3 Chat Application"
 		},
 		{
 			description: "",
